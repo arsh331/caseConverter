@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background: #b0e0dc;
+    font-family: monospace;
+    height: 100vh;
+}
+
+#text-area
+{
+    width: 99%;
+    height: 400px;
+}
+
+btn
+{
+
+}
+
+.title
+{
+    font-family: monospace;
+    background: #000000;
+    padding: 2px;
+    margin-bottom: 10px;
+    color: white;
+}
+.content
+{
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button
+{
+    background: rgb(0, 0, 0);
+    margin: 10px;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.86);
+    font-family: monospace;
+}
+.footer{
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding: 15px;
+}
