@@ -5,12 +5,22 @@
 
 .header {
     background-color: black;
-    color: white;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: left;
     padding-left: 1vw;
+}
+.header h1{
+    background: hsla(238, 100%, 71%, 1);
+
+    background: linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .footer{
     background-color: black;
@@ -48,7 +58,7 @@
     height: 50vh;
     background-color: #e1e1e1;
     border: #e1e1e1;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 textarea{
     font-size: x-large;
