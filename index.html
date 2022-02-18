@@ -2,23 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js"></script>
     <link href="main.css" rel="stylesheet"><link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Case Converter</title>
 </head>
+
 <body>
-<div class="title"><h1 class="heading">Case Converter</h1></div>
-<div class="content">
-<textarea id="text-area" placeholder="Enter the text here to change its case. You can also save the text as a file.">
-</textarea>
-    <button id="upper-case" class="button">Upper Case</button>
-    <button id="lower-case" class="button">Lower Case</button>
-    <button id="proper-case" class="button">Proper Case</button>
-    <button id="sentence-case" class="button">Sentence Case</button>
-    <button id="save-text-file" class="button">Save Text File</button>
+<div class="header">
+    <h1 class="title">Case Converter</h1>
 </div>
+
+<div class="content">
+ <textarea id="text-area" placeholder="Enter the text here to change its case. You can also save the text as a file."></textarea>
+    <nav class="buttons">
+        <ul>
+            <li><button id="upper-case" class="btn">Upper Case</button></li>
+            <li><button id="lower-case" class="btn">Lower Case</button></li>
+            <li><button id="proper-case" class="btn">Proper Case</button></li>
+            <li><button id="sentence-case" class="btn">Sentence Case</button></li>
+            <li><button id="save-text-file" class="btn">Save Text File</button></li>
+        </ul>
+    </nav>
+</div>
+
 <div class="footer">
-<footer >Author: Arshdeep Singh</footer>
+ <footer>
+     <p>Author: Arshdeep Singh</p>
+ </footer>
 </div>
 </body>
 </html>

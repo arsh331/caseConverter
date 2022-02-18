@@ -1,51 +1,84 @@
-body{
+*{
     margin: 0;
-    background: #b0e0dc;
     font-family: monospace;
-    height: 100vh;
 }
 
-#text-area
-{
-    width: 99%;
-    height: 400px;
-}
-
-btn
-{
-
-}
-
-.title
-{
-    font-family: monospace;
-    background: #000000;
-    padding: 2px;
-    margin-bottom: 10px;
+.header {
+    background-color: black;
     color: white;
-}
-.content
-{
-    padding: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.button
-{
-    background: rgb(0, 0, 0);
-    margin: 10px;
-    border: 2px solid #000000;
-    padding: 5px;
-    border-radius: 5px;
-    color: rgba(255, 255, 255, 0.86);
-    font-family: monospace;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1vw;
 }
 .footer{
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    text-align: center;
-    position: fixed;
-    width: 100%;
+    background-color: black;
     color: white;
-    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.content{
+    display: flex;
+    height: 75vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background: hsla(238, 100%, 71%, 1);
+
+    background: linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr="#696eff", endColorstr="#f8acff", GradientType=1 );
+}
+
+#text-area{
+    max-height: 75vh;
+    max-width: 75vw;
+    width: 50vw;
+    height: 50vh;
+    background-color: #e1e1e1;
+    border: #e1e1e1;
+    border-radius: 5px;
+}
+textarea{
+    font-size: x-large;
+}
+.buttons{
+    display: flex;
+    height: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+nav li{
+
+}
+.btn{
+    border-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background: whitesmoke;
+    outline: none;
+}
+
+.btn:hover{
+    background: black;
+    color: whitesmoke;
+}
+
+
+
